@@ -12,6 +12,12 @@
       "image": "tobsirl/multi-server",
       "hostname": "api",
       "essential": false
+    },
+    {
+      "name": "worker",
+      "image": "tobsirl/multi-worker",
+      "hostname": "worker",
+      "essential": false
     }
   ]
 }
