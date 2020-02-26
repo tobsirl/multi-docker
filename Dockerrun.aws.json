@@ -4,7 +4,14 @@
     {
       "name": "client",
       "image": "tobsirl/multi-client",
-      "hostname": "client"
+      "hostname": "client",
+      "essential": false
+    },
+    {
+      "name": "server",
+      "image": "tobsirl/multi-server",
+      "hostname": "api",
+      "essential": false
     }
   ]
 }
